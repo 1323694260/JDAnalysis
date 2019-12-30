@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>welcome</title>
+    <link rel="stylesheet" href="../static/css/comon0.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="../static/js/jquery.js"></script>
+</head>
+<body>
+<div id="load_d" class="loading" style="display: none">
+    <div class="loadbox"><img src="../static/picture/loading.gif"> 页面加载中...</div>
+</div>
+<div class="map">
+    <div class="map1"><img src="../static/picture/lbx.png"></div>
+    <div class="map2"><img src="../static/picture/jt.png"></div>
+    <div class="map3"><img src="../static/picture/map.png"></div>
+    <div class="map4" id="map_1"></div>
+</div>
+
+
+<form role="form" action="/start" id="form_data" method="get">
+  <div class="form-group" align="center">
+    <select name="product_info" class="form-control" style="width: 200px;color:#beff42;background:#5160ff;margin-top: 9%">
+        <option value="0">请选择商品类型</option>
+        {%for item in files%}
+        <option>{{item}}</option>
+        {% endfor %}
+    </select>
+      <div class="form-group">
+    <input name="sku" type="number" class="form-control" id="name" placeholder="请输入SKU" style="width: 200px;color:#acff3f;background:#5160ff;margin-top: 1%">
+  </div>
+<button type="submit" id="tj" class="btn btn-danger">开始分析</button>
+  </div>
+</form>
+
+<p align="center"><a href="javascript:lie();" class="btn btn-danger">示例</a></p>
+</body>
+<script>
+    function ajaxLoading(){
+        $("#load_d").show();
+    }
+    function ajaxLoadEnd(){
+        $("#load_d").hide();
+    }
+
+    function lie(){
+        $.get('/start', {product_info:'空气净化器', sku:5487565}, function () {
+            location.href="/spider_comment"
+        });
+    }
+
+</script>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/city.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/1/0.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/1/1.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/1/松下评论.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/2/0.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/2/2.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/data/小米2s评论.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/data/松下评论.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/data/飞利浦评论.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/可视化舱/015/comment/100003060627.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/可视化舱/015/comment/100006769698.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/可视化舱/015/comment/5487565.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/可视化舱/015/comment/6946605.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/可视化舱/015/static/comment/100003060627.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/可视化舱/015/static/comment/100006769698.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/可视化舱/015/static/comment/5487565.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/可视化舱/015/static/comment/6946605.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/可视化舱/015/templates/5487565.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/可视化舱/015/templates/product_info/手机.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/可视化舱/015/templates/product_info/空气净化器.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/可视化舱/015/templates/product_info/笔记本电脑.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/可视化舱/015/templates/product_info/耳机.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/可视化舱/015/templates/商品信息.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/可视化舱/015/user/0.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/手机信息.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/大数据毕业设计/空气净化器商品信息分析代码/商品信息.csv" charset="GBK" />
+  </component>
+</project>
